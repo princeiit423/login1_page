@@ -1,0 +1,135 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:url(jungle.jpg);
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.container{
+    width: 420px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(10px);
+    color: #fff;
+    border-radius: 20px;
+    padding: 30px 40px;
+}
+.container h1{
+    font-weight: bold;
+    font-size: 36px;
+    text-align: center;
+
+}
+.container .input-box{
+    position: relative;
+    width: 100%;
+    height:50px;
+    background:transparent;
+    margin:30px 0px;
+    margin-bottom: 126px;
+}
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border:2px solid rgba(255, 255, 255, .2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #fff;
+    padding: 20px 45px 20px 20px;
+    margin-bottom: 45px;
+}
+.input-box input ::placeholder{
+    color: #fff;
+
+}
+.input-box i{
+    position: absolute;
+    right: 20px;
+    top: 30%;
+    transform: translate(-50%);
+    font-size: 20px;
+}
+.container.remember-forgot{
+    display: flex;
+    justify-content: space-between;
+    margin: -15px 0px 15px;
+    font-size: 14.5px;
+}
+.remember-forgot .label input{
+    margin-right: 3px;
+    accent-color: #fff;
+}
+.remember-forgot a{
+    text-decoration: none;
+    color: #fff;
+    padding-left: 84px;
+}
+.remember-forgot a :hover{
+    text-decoration: underline;
+
+}
+.container .submit{
+    width: 100%;
+    height: 45px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: rgba(0px, 0px, 0px, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+
+}
+.container.register-link{
+    font-size:14,5px ;
+    text-align: center;
+    margin: 20px 0px 15px;
+}
+.container.register-link p a{
+    color:#fff;
+    text-decoration: none;
+    font-weight: 600;
+
+}
+.register-link p a:hover{
+    text-decoration: underline;
+    color: aqua;
+}
+#submit{
+    width: 337px;
+    margin-top: 13px;
+    border-radius: 6px;
+    height: 36px;
+    background: transparent;
+    font-weight: 400;
+    border:2px solid rgba(255, 255, 255, .2);
+      color: white;
+}
+.register-link{
+    justify-content: space-evenly;
+    display: flex;
+    margin-top: 15px;
+    margin-left: 32px;
+}
+.register-link p{
+    margin-left: -37px;
+}
+.remember-forgot{
+    margin-top: -15px;
+}
+#lock{
+    padding-top: 96px;
+}
